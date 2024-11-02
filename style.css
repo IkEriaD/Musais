@@ -1,0 +1,2593 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'g Courier New', Courier, monospace; */
+
+    font-family: "Kodchasan";
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+body {
+    height: 100%;
+    background-image: linear-gradient(to right,   #0e393c 50%,  #0e3235 50%);
+    background-size: 80px 100%;
+    /* box-shadow: 1px 1px 40px 50px inset rgba(0, 0, 0, 0.4); */
+   
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.logo {
+width: 2.6rem;
+height: 2rem;
+}
+
+.logo-container p {
+    font-size: 1.5rem;
+    color: #eed7c5;
+    position: relative;
+    top: 0.2rem;
+}
+
+.design-container {
+    margin: 2rem 0 0 20rem;
+    color: #ffffff;
+}
+
+.design-container h2 {
+    font-size: 3rem;
+    color: #eed7c5;
+}
+
+.flower-img {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    left: 32.8rem;
+    top: -17rem;
+}
+
+.d-h2 {
+    font-size: 3rem;
+    margin: 0 0 1.5rem 8rem;
+    color: #eed7c5;
+}
+
+.designline-img {
+    width: 17rem;
+    height: 4rem;
+    position: absolute;
+    left: 28.3rem;
+    top: 15.2rem;
+}
+
+.strong {
+    color: #ffffff;
+}
+
+.designcrown-img {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    left: 34.1rem;
+    top: -1.6rem;
+    border-radius: 10px;
+}
+
+.star-img {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    left: 1.5rem;
+    top: -12.5rem;
+}
+
+.d-line-img {
+    width: 10rem;
+    height: 4rem;
+    position: relative;
+    top: -52rem;
+    left: 35rem;
+}
+
+.dcontainer-p {
+    margin:0 0 0 9rem;
+    color: #e5e0e0;
+}
+
+.button-container {
+    padding: 1px;
+    width: 20%;
+    margin: 0 0 0.5rem 15rem;
+    border-radius: 50px;
+    color: #000000;
+    background: #ffffff;
+}
+
+.btn-div {
+    font-size: 11px;
+    font-weight: 600;
+    position: relative;
+    left: 1rem;
+    top: 0.7rem;
+}
+
+.chat-img {
+   width: 1rem;
+   height: 1rem; 
+   position: relative;
+   left: 9.4rem;
+   top: -0.2rem;  
+}
+
+.design-p {
+    color: #eed7c5;
+    font-size: 12px;
+    margin-left: 17rem;
+}
+
+
+
+
+/*  BEGINS HERE   */
+
+.imgs {
+    display: flex;
+} 
+
+.img-container img {
+    width: 23.5rem;
+    height: 23.5rem;
+    margin-bottom: 1rem;
+}
+
+.a {
+    color: #ffffff;
+    position: absolute;
+    left: 69rem;
+    width: 13%;
+}
+
+.box-imgg {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    left: 67.6rem;
+    top: 54.2rem;
+
+}
+
+
+
+
+/*  BEGINS HERE   */
+
+.client-container {
+    border: 3px solid gray;
+    width: 70%;
+    margin-left: 13rem;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 40px 50px inset rgba(0, 0, 0, 0.4);
+    margin-top: 7rem;
+
+}
+
+.client-h1 {
+    color:#eed7c5 ;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.clientline-img {
+    width: 45rem;
+    height: 5rem;
+    position: absolute;
+    left: 9.6rem;
+    top: 66.5rem;
+}
+
+.c-response {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.box1,
+.box2,
+.box3 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.box1-h4,
+.box2-h4,
+.box3-h4 {
+    font-size: 20px;
+    margin-bottom: 0.3rem;
+}
+
+.box1-p,
+.box2-p,
+.box3-p {
+    font-size: 10px;
+    color: #e5e0e0;
+}
+
+.box1-img,
+.box2-img,
+.box3-img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.box1-img {
+    margin-left: 6.5rem;
+}
+
+.box2-img {
+    margin-left: 5rem;
+}
+
+.box3-img {
+    margin-left: 3.5rem;
+}
+
+.client-dot {
+    width: 56rem;
+    height: 24rem;
+    background-image: radial-gradient(#eed7c5 -15%, transparent 11%);
+                      /* radial-gradient(#e53935 10%, transparent 11%); */
+    background-size: 30px 30px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+    position: absolute;
+    left: 13rem;
+    top: 61rem;
+    z-index: -9;
+}
+
+
+
+
+
+/*  BEGINS HERE   */
+
+.ux-container {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.ui-h1 {
+    font-size: 3rem;
+    color:#eed7c5 ;
+}
+
+.uxline-img {
+    width: 31rem;
+    height: 4rem;
+    position: absolute;
+    left: 19rem;
+    top: 94rem;
+}
+
+.ux-img {
+    width: 56rem;
+    height: 30rem;
+    margin-top: 1.5rem;
+    margin-left: 3.7rem;
+}
+
+.ux-dot {
+    width: 75rem;
+    height: 35rem;
+    background-image: radial-gradient(#eed7c5 -15%, transparent 11%);
+                      /* radial-gradient(#e53935 10%, transparent 11%); */
+    background-size: 30px 30px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+    position: absolute;
+    left: 3rem;
+    top: 94.5rem;
+    z-index: -9;
+}
+
+
+/*  BEGINS HERE   */
+.expertise-container {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.expertise-h1 {
+    font-size: 3rem;
+    color:#eed7c5 ; 
+}
+
+.expertiseline-img {
+    width: 31rem;
+    height: 4rem;
+    position: absolute;
+    left: 19rem;
+    top: 136.4rem;
+}
+
+.expertise-p {
+    color: #ffffff;
+    margin-top: 2rem;
+}
+
+.expertise-cards {
+  padding: 4%;
+  color: #ffffff;
+}
+
+.blur  {
+    background: #0a0a0a;
+    position: absolute;
+    left: 3rem;
+    top: 134rem;
+    width: 76rem;
+    height: 40rem;
+    border-radius: 50%;
+    filter: blur(110px);
+    z-index: -9;
+  }
+
+
+
+/* web  */
+.ui-designs {
+    border: 3px solid gray;
+    background:  #0e393c;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5.5%;
+    border-radius: 20px;
+    position: absolute;
+    left: 33.5rem;
+    top: 146.3rem;
+    transform: rotate(11deg);
+     box-shadow: 1px 1px 40px 30px inset rgba(0, 0, 0, 0.4);
+}
+
+/* ui  */
+.web-designs {
+    border: 3px solid gray;
+    background:  #0e393c;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5%;
+    border-radius: 20px;
+    position: absolute;
+    left: 17.5rem;
+    top: 146rem;
+    transform: rotate(-5deg);
+    box-shadow: 1px 1px 40px 30px inset rgba(0, 0, 0, 0.4);
+}
+
+/* blog  */
+.packaging-designs {
+    border: 3px solid gray;
+    background:  #0e393c;
+    font-weight: 600;
+    width: 22%;
+    padding: 5%;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -120rem;
+    left: 34rem;
+    transform: rotate(-3deg);
+    box-shadow: 1px 1px 40px 30px inset rgba(0, 0, 0, 0.4);
+}
+
+/* packaging  */
+.blogs-designs {
+    border: 3px solid gray;
+    background:  #0e393c;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5%;
+    border-radius: 20px;
+    position: absolute;
+    left: 18.2rem;
+    bottom: -121rem;
+    transform: rotate(-15.2deg);
+    box-shadow: 1px 1px 40px 30px inset rgba(0, 0, 0, 0.4);
+    
+}
+
+.webflow-designs {
+    border: 3px solid gray;
+    background:  #0e393c;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5%;
+    border-radius: 20px;
+    position: absolute;
+    left: 50.7rem;
+    top: 156rem;
+    transform: rotate(10deg);
+    box-shadow: 1px 1px 40px 30px inset rgba(0, 0, 0, 0.4);
+
+}
+
+
+.logo-designs {
+    border: 3px solid gray;
+    background:  #0e393c;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 5%;
+    border-radius: 20px;
+    position: absolute;
+    left: 50.7rem;
+    top: 146rem;
+    transform: rotate(-10deg);
+    box-shadow: 1px 1px 40px 30px inset rgba(0, 0, 0, 0.4);
+}
+
+
+/*  BEGINS HERE   */
+
+.testimonials-container {
+    text-align: center;
+    margin-top: 30rem;
+}
+
+.testimonials-h1 {
+    font-size: 3rem;
+    color:#eed7c5 ;
+    margin-left: 8rem;
+}
+
+.testimonialsline-img {
+    width: 30.5rem;
+    height: 4rem;
+    position: absolute;
+    left: 24rem;
+    top: 182.5rem;
+}
+
+.testimonials-p {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 7.5rem;
+
+}
+
+.box1 {
+    display: grid;
+    gap: 12px;
+}
+
+.box1-a {
+    border: 1px solid white;
+    background: #ffffff;
+    width: 14rem;
+    height: 23rem;
+}
+.box1-b {
+    background: #ffffff;
+    width: 14rem;
+    height: 17rem;
+}
+.box1-c {
+    background: #ffffff;
+    width: 14rem;
+    height: 4rem;
+}
+
+.box2 {
+    display: grid;
+    gap: 12px;
+}
+
+.box2-a {
+    background: #ffffff;
+    width: 14rem;
+    height: 13.5rem;
+}
+.box2-b {
+    background: #ffffff;
+    width: 14rem;
+    height: 13.5rem;
+}
+.box2-c {
+    background: #ffffff;
+    width: 14rem;
+    height: 17rem;
+}
+
+.box3 {
+    display: grid;
+    gap: 10px;
+}
+
+.box3-a {
+    background: #ffffff;
+    width: 14rem;
+    height: 27.7em;
+}
+.box3-b {
+    background: #ffffff;
+    width: 14rem;
+    height: 17.2rem;
+}
+
+.blur1  {
+    background: #0a0a0a;
+    position: absolute;
+    left: 4rem;
+    top: 180rem;
+    width: 75rem;
+    height: 60rem;
+    border-radius: 50%;
+    filter: blur(110px);
+    z-index: -9;
+  }
+
+
+  /* BEGINS HERE  */
+
+  .plan-container {
+    border: 1px soild white;
+    text-align: center;
+    margin-top: 14rem;
+  }
+
+  .mon-yea {
+    border: 1px solid gray;
+    display: flex;
+    color: #ffffff;
+    width: 20%;
+    padding: 4px;
+    border-radius: 20px;
+    margin-left: 34rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .monthly {
+    padding: 5px;
+    border-radius: 20px;
+    width: 40%;
+    background: #1b747a;
+  }
+
+  .yearly {
+    padding: 5px;
+    border-radius: 20px;
+    width: 40%;
+  }
+
+  .plan-img {
+    width: 6rem;
+    height: 3rem;
+    position: absolute;
+    left: 45.5rem;
+    top: 246.8rem;
+    transform: rotate(35deg);
+  }
+
+  .plan-h1 {
+    font-size: 2.3rem;
+    color:#eed7c5 ;
+    margin-left: 6rem;
+  }
+
+  .planline-img {
+    width: 51.5rem;
+    height: 3.5rem;
+    position: absolute;
+    left: 8.5rem;
+    top: 254.6rem;
+}
+
+  .plancards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-left: 0rem;
+  }
+
+  .plancard1 {
+    border: 1px solid #808080;
+    padding: 40px;
+    border-radius: 10px;
+    height: 26rem;
+  }
+
+  .plancard1-p {
+    font-size: 20px;
+    color: #eed7c5;
+    margin-bottom: 0.5rem;
+  }
+
+  .plancard1-h1 {
+    font-size: 35px;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+  }
+
+  .plancard1-p2 {
+    border: 1px solid #808080;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background: #0e393c;
+    box-shadow: 20px 20px 40px 80px inset  rgba(0, 0, 0, 0.4);
+  }
+
+  .check-img {
+    width: 1.7rem;
+    height: 1.7rem;
+    position: relative;
+    top: -0.3rem;
+  }
+
+  .check-plan {
+    display: flex;
+    margin-bottom: 0.5rem;
+  }
+
+  .checkplan-p {
+    font-size: 15px;
+    color: #ffffff;
+  }
+
+  .plancard2 {
+    border: 1px solid #808080;
+    padding: 70px;
+    border-radius: 10px;
+    height: 30rem;
+    position: relative;
+    top: -2rem;
+    background: #0e393c;
+    box-shadow: 100px 100px 50px 100px inset  rgba(0, 0, 0, 0.4);
+  }
+
+  .plancard2-pp1 {
+    font-size: 20px;
+    color: #2c972c;
+    position: relative;
+    top: -2.4rem;
+
+  }
+
+  .plancard2-pp2 {
+    font-size: 20px;
+    color:  #e5e0e0;
+    position: relative;
+    top: -1.5rem;
+  }
+
+  .plancard2-h1 {
+    font-size: 45px;
+    color: #ffffff;
+    position: relative;
+    top: -2rem;
+  }
+
+  strong {
+    color: #e5e0e0;
+  }
+
+  .plancard2-p2 {
+    border: 1px solid #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px;
+    color: #1b747a;
+    background: #ffffff;
+    border-radius: 50px;
+    width: 130%;
+    margin-left: -1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .blur2  {
+    background: #0a0a0a;
+    position: absolute;
+    left: 2rem;
+    top: 253rem;
+    width: 78rem;
+    height: 58rem;
+    border-radius: 50%;
+    filter: blur(110px);
+    z-index: -9;
+  }
+
+  .plan-dot {
+    width: 75rem;
+    height: 44rem;
+    background-image: radial-gradient(#eed7c5 -15%, transparent 11%);
+                      /* radial-gradient(#e53935 10%, transparent 11%); */
+    background-size: 30px 30px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+    position: absolute;
+    left: 3rem;
+    top: 248rem;
+    z-index: -9;
+}
+
+
+/* BIGINS HERE  */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14rem;
+}
+
+.footer1 {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-logo {
+    width: 2.6rem;
+    height: 2.3rem;
+    position: relative;
+    left: 13.5rem;
+    top: -0.1rem;
+}
+
+.footer-p {
+    color: #eed7c5;
+    font-size: 28px;
+    margin-left: 13rem;
+} 
+
+.footer-imgs {
+    margin-right: 8rem;
+}
+
+.x-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    top: -0.5rem;
+    left: 0.3rem;
+}
+
+.linkedin-img {
+    width: 1.75rem;
+    height: 1.75rem; 
+    position: relative;
+    top: -0.4rem;
+    left: 0.3rem;
+}
+
+.instagram-img {
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+.footer-dot {
+    width: 75rem;
+    height: 10rem;
+    background-image: radial-gradient(#eed7c5 -15%, transparent 11%);
+                      /* radial-gradient(#e53935 10%, transparent 11%); */
+    background-size: 30px 30px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+    position: absolute;
+    left: 3rem;
+    top: 300rem;
+    z-index: -9;
+}
+
+
+
+
+/* MEDIA QUERY  */
+
+
+/* MEDIA 1024PX  */
+@media (max-width: 1024px) {
+        
+    .logo-container {
+        margin-left: 15rem;
+    }
+    
+    .design-container {
+        margin-left: 21rem;
+    }
+    
+    .flower-img {
+        top: -18rem;
+    }
+    
+    .designline-img {
+        width: 18rem;
+        left: 28.5rem;
+    }
+    
+    
+    .star-img {
+        top: -13rem;
+    }
+    
+    .button-container {
+        padding: 1px;
+        width: 27%;
+        margin: 1rem 0 0.5rem 15rem;
+        border-radius: 50px;
+        color: #000000;
+        background: #ffffff;
+    }
+    
+    .btn-div {
+        font-size: 11px;
+        font-weight: 600;
+        position: relative;
+        left: 1rem;
+        top: 0.7rem;
+    }
+    
+    .chat-img {
+       width: 1rem;
+       height: 1rem; 
+       position: relative;
+       left: 9.5rem;
+       top: -0.2rem;  
+    }
+    
+    .design-p {
+        font-size: 12px;
+    }
+      
+    /*  BEGINS HERE   */
+    
+    .img-container img {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .a {
+        left: 72rem;
+        width: 19%;
+    }
+    
+    .box-imgg {
+        left: 70.5rem;
+        top: 56.8rem;
+    
+    }
+     
+    
+    /*  BEGINS HERE   */
+    
+    .client-container {
+        width: 100%;
+        margin-left: 10rem;
+    }
+    
+    .clientline-img {
+        width: 45rem;
+        left: 11rem;
+        top: 69rem;
+    }
+
+    .client-dot {
+        width: 60rem;
+        top: 62.8rem;
+    }
+    
+    
+    
+    
+    /*  BEGINS HERE   */
+    
+    .ui-h1 {
+        margin-left: 20rem;
+    }
+    
+    .uxline-img {
+        left: 21rem;
+        top: 95.5rem;
+    }
+    
+    .ux-img {
+        width: 65rem;
+        margin-left: 9.5rem;
+    }
+
+    .ux-dot {
+        width: 78rem;
+        top: 96rem;
+    }
+    
+    
+    /*  BEGINS HERE   */
+    
+    .expertise-h1 {
+        margin-left: 17rem;
+    }
+    
+    .expertiseline-img {
+        left: 19.5rem;
+        top: 138rem;
+    }
+    
+    .expertise-p {
+        margin-left: 17rem;
+    }
+    
+    
+    /* web  */
+    .ui-designs {
+        padding: 5.6%;
+        left: 34rem;
+        top: 148rem;
+    }
+    
+    /* ui  */
+    .web-designs {
+        left: 19.1rem;
+        top: 148rem;
+    }
+    
+    /* blog  */
+    .packaging-designs {
+        padding: 5.6%;
+        width: 25%;
+        bottom: -126.5rem;
+        left: 34.7rem;
+    }
+    
+    /* packaging  */
+    .blogs-designs {
+        padding: 5.6%;
+        left: 19.5rem;
+        bottom: -127.5rem;
+        
+    }
+    
+    .webflow-designs {
+        padding: 5.6%;
+        font-size: 10px;
+        left: 49.5rem;
+        top: 156.4rem;
+    
+    }
+    
+    
+    .logo-designs {
+        padding: 5.6%;
+        width: 23%;
+        font-size: 15px;
+        left: 49.7rem;
+        top: 147.8rem;
+
+    }
+    
+    
+    /*  BEGINS HERE   */
+    
+    .testimonials-h1 {
+        margin-left: 17rem;
+    }
+    
+    .testimonialsline-img {
+        width: 31rem;
+        left: 20rem;
+        top: 183rem;
+    }
+    
+    .testimonials-p {
+        margin-left: 18rem;
+    }
+    
+    .boxes {
+        margin-left: 18rem;
+    
+    }
+    
+    
+    
+      /* BEGINS HERE  */
+
+      .mon-yea {
+        width: 25%;
+      }
+      .plan-img {
+        left: 46rem;
+        top: 247rem;
+      }
+    
+      .plan-h1 {
+        margin-left: 17rem;
+      }
+    
+      .planline-img {
+        left: 6.1rem;
+        top: 255.4rem;
+    }
+    
+      .plancards {
+        margin-top: 4rem;
+        margin-left: 10.5rem;
+        width: 100%;
+      }
+
+      .plan-dot {
+        width: 78rem;
+        height: 44rem;
+        left: 3.3rem;
+        top: 248rem;
+    }
+    
+   
+    
+    
+    /* BIGINS HERE  */ 
+    
+    .footer-imgs {
+        margin-right: -7rem;
+    }
+
+    .footer-dot {
+        width: 78rem;
+        height: 7rem;
+        left: 3rem;
+        top: 301rem;
+    }  
+    
+}
+
+
+
+
+
+/* MEDIA 912PX  */
+@media (max-width: 912px) {
+    
+ 
+.logo-container {
+    margin-left: 34rem;
+}
+
+.design-container {
+    margin-left: 28rem;
+}
+
+
+.flower-img {
+    top: -18rem;
+}
+
+.d-h2 {
+    margin-left: 8rem;
+    width: 100%;
+}
+
+.designline-img {
+    left: 35.7rem;
+    top: 15rem;
+}
+
+.designcrown-img {
+    left: 32rem;
+    top: -1.6rem;
+}
+
+.star-img {
+    left: 1.5rem;
+    top: -13.4rem;
+}
+
+
+.dcontainer-p {
+    margin-left: 7rem;
+    width: 100%;
+}
+
+.button-container {
+    width: 40%;
+}
+
+/*  BEGINS HERE   */
+
+
+.img-container img {
+    width: 28rem;
+    height: 28rem;
+}
+
+.a {
+    left: 82rem;
+    width: 22%;
+}
+
+.box-imgg {
+    left: 80.5rem;
+    top: 59.7rem;
+
+}
+
+/*  BEGINS HERE   */
+
+.client-container {
+    width: 120%;
+    margin-left: 13rem;
+}
+
+.clientline-img {
+    left: 16rem;
+    top: 72rem;
+}
+
+.client-dot {
+    width: 65rem;
+    height: 23rem;
+    left: 13rem;
+    top: 66rem;
+}
+
+/*  BEGINS HERE   */
+
+.ux-container {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.ui-h1 {
+    margin-left: 30rem;
+    width: 50%;
+}
+
+.uxline-img {
+    left: 23rem;
+    top: 97.5rem;
+}
+
+.ux-img {
+    width: 68rem;
+    height: 30rem;
+    margin-left: 14rem;
+}
+
+.ux-dot {
+    width: 82rem;
+    height: 38rem;
+    left: 6rem;
+    top: 97rem;
+}
+
+/*  BEGINS HERE   */
+
+.expertise-h1 {
+    margin-left: 30rem;
+    width: 50%; 
+}
+
+.expertiseline-img {
+    left: 24rem;
+    top: 139.7rem;
+}
+
+.expertise-p {
+    width: 100%;
+}
+
+/* web  */
+.ui-designs {
+    padding: 5.8%;
+    left: 38rem;
+    top: 150rem;
+}
+
+/* ui  */
+.web-designs {
+    padding: 5.6%;
+    left: 23rem;
+    top: 150rem;
+}
+
+/* blog  */
+.packaging-designs {
+    width: 28%;
+    padding: 5.6%;
+    bottom: -78.8rem;
+    left: 38.5rem;
+}
+
+/* packaging  */
+.blogs-designs {
+    padding: 5.8%;
+    left: 24rem;
+    bottom: -81rem;
+    
+}
+
+.webflow-designs {
+    font-size: 13px;
+    width: 31%;
+    padding: 5.8%;
+    left: 54rem;
+    top: 157.5rem;
+}
+
+
+.logo-designs {
+    font-size: 19px;
+    width: 30%;
+    padding: 5.8%;
+    left: 53.6rem;
+    top: 150rem;
+}
+
+
+/*  BEGINS HERE   */
+
+
+.testimonials-h1 {
+    margin-left: 30rem;
+    width: 50%; 
+}
+
+.testimonialsline-img {
+    left: 24rem;
+    top: 184rem;
+}
+
+.testimonials-p {
+    margin-left: 30rem;
+    width: 50%;
+}
+
+.boxes {
+    margin-left: 36rem;
+
+}
+
+  /* BEGINS HERE  */
+
+  .mon-yea {
+    width: 30%;
+  }
+
+  .plan-img {
+    left: 47rem;
+    top: 248rem;
+  }
+
+  .plan-h1 {
+    margin-left: 16rem;
+    width: 100%;
+  }
+
+  .planline-img {
+    left: 10rem;
+    top: 256.5rem;
+}
+
+  .plancards {
+    margin-left: 6rem;
+    width: 150%;
+  }
+
+  .plan-dot {
+    width: 85rem;
+    height: 43rem;
+    left: 5rem;
+    top: 250rem;
+}
+
+/* BIGINS HERE  */
+
+
+.footer1 {
+    margin-left: 4rem;
+}
+
+.footer-imgs {
+    margin-right: -19rem;
+}
+
+.footer-dot {
+    width: 75rem;
+    height: 7rem;
+    left: 4rem;
+    top: 302rem;
+}
+
+}
+
+
+/* MEDIA 768PX  */
+@media (max-width: 768px) {
+    
+ 
+.logo-container {
+    margin-left: 35rem;
+}
+
+.design-container {
+    margin-left: 24rem;
+}
+
+
+.flower-img {
+    top: -18rem;
+}
+
+.d-h2 {
+    margin-left: 8rem;
+    width: 110%;
+}
+
+.designline-img {
+    left: 32rem;
+    top: 15rem;
+}
+
+.star-img {
+    left: 1.5rem;
+    top: -13.6rem;
+}
+
+
+.dcontainer-p {
+    margin-left: 7rem;
+    width: 130%;
+}
+
+.button-container {
+    width: 47%;
+}
+
+.design-p {
+    font-size: 11.2px;
+}
+
+/*  BEGINS HERE   */
+
+
+.img-container img {
+    width: 24.9rem;
+    height: 24.9rem;
+}
+
+.a {
+    left: 72rem;
+    width: 25%;
+}
+
+.box-imgg {
+    left: 70.5rem;
+    top: 56.6rem;
+}
+
+/*  BEGINS HERE   */
+
+.client-container {
+    width: 120%;
+    margin-left: 13rem;
+}
+
+.clientline-img {
+    left: 11rem;
+    top: 69rem;
+}
+
+.client-dot {
+    width: 56rem;
+    top: 63rem;
+}
+
+/*  BEGINS HERE   */
+
+.ux-container {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.ui-h1 {
+    margin-left: 28rem;
+    width: 50%;
+}
+
+.uxline-img {
+    left: 19rem;
+    top: 93.6rem;
+}
+
+.ux-img {
+    width: 56rem;
+    height: 30rem;
+    margin-left: 14rem;
+}
+
+.ux-dot {
+    width: 72rem;
+    top: 93rem;
+}
+
+/*  BEGINS HERE   */
+
+.expertise-h1 {
+    margin-left: 28rem;
+    width: 50%; 
+}
+
+.expertiseline-img {
+    left: 19.6rem;
+    top: 136rem;
+}
+
+.expertise-p {
+    width: 100%;
+}
+
+/* web  */
+.ui-designs {
+    padding: 5.3%;
+    left: 34rem;
+    top: 145.5rem;
+}
+
+/* ui  */
+.web-designs {
+    padding: 5%;
+    left: 21rem;
+    top: 145.5rem;
+}
+
+/* blog  */
+.packaging-designs {
+    width: 30%;
+    padding: 5.3%;
+    bottom: -95rem;
+    left: 33.8rem;
+}
+
+/* packaging  */
+.blogs-designs {
+    padding: 5.3%;
+    left: 20.8rem;
+    bottom: -95rem;
+    
+}
+
+.webflow-designs {
+    font-size: 13px;
+    width: 32%;
+    padding: 5.6%;
+    left: 47.5rem;
+    top: 153rem;
+}
+
+
+.logo-designs {
+    font-size: 19px;
+    width: 30%;
+    padding: 5.4%;
+    left: 47.3rem;
+    top: 145rem;
+}
+
+
+/*  BEGINS HERE   */
+
+
+.testimonials-h1 {
+    margin-left: 28rem;
+    width: 50%; 
+}
+
+.testimonialsline-img {
+    left: 19.7rem;
+    top: 179.5rem;
+}
+
+.testimonials-p {
+    margin-left: 29rem;
+    width: 50%;
+}
+
+.boxes {
+    margin-left: 37rem;
+
+}
+
+  /* BEGINS HERE  */
+
+  .mon-yea {
+    width: 30%;
+  }
+
+  .plan-img {
+    left: 44rem;
+    top: 244rem;
+  }
+
+  .plan-h1 {
+    margin-left: 16rem;
+    width: 100%;
+  }
+
+  .planline-img {
+    left: 5.5rem;
+    top: 252rem;
+}
+
+  .plancards {
+    margin-left: 6rem;
+    width: 150%;
+  }
+
+  .plan-dot {
+    width: 75rem;
+    top: 245rem;
+  }
+
+/* BIGINS HERE  */
+
+
+.footer1 {
+    margin-left: -2rem;
+}
+
+.footer-imgs {
+    margin-right: -20rem;
+}
+
+.footer-dot {
+    top: 298rem;
+}
+
+}
+
+
+/* MEDIA 540PX  */
+@media (max-width: 540px) {
+    
+ 
+.logo-container {
+    margin-left: 40rem;
+}
+
+.design-container {
+    margin-left: 23rem;
+}
+
+
+.flower-img {
+    top: -18rem;
+}
+
+.d-h2 {
+    margin-left: 8rem;
+    width: 220%;
+}
+
+.designline-img {
+    left: 30.8rem;
+    top: 15.3rem;
+}
+
+.star-img {
+    left: 1.5rem;
+    top: -13.5rem;
+}
+
+
+.dcontainer-p {
+    margin-left: 7rem;
+    width: 250%;
+}
+
+.button-container {
+    width: 102%;
+}
+
+.design-p {
+    width: 100%;
+}
+
+/*  BEGINS HERE   */
+
+
+.img-container img {
+    width: 24.9rem;
+    height: 24.9rem;
+}
+
+.a {
+    left: 72rem;
+    width: 35%;
+}
+
+.box-imgg {
+    left: 70.5rem;
+    top: 56.5rem;
+}
+
+/*  BEGINS HERE   */
+
+.client-container {
+    width: 187%;
+    margin-left: 10.5rem;
+}
+
+.clientline-img {
+    left: 11.5rem;
+    top: 69rem;
+}
+
+.client-dot {
+    width: 60rem;
+    height: 19rem;
+    top: 64rem;
+}
+
+/*  BEGINS HERE   */
+
+.ui-h1 {
+    margin-left: 28rem;
+    width: 100%;
+}
+
+.uxline-img {
+    left: 24rem;
+    top: 93rem;
+}
+
+.ux-img {
+    width: 62rem;
+    height: 30rem;
+    margin-left: 11.5rem;
+}
+
+.ux-dot {
+    width: 73rem;
+}
+
+/*  BEGINS HERE   */
+
+.expertise-h1 {
+    margin-left: 28rem;
+    width: 100%; 
+}
+
+.expertiseline-img {
+    left: 24.6rem;
+    top: 135.5rem;
+}
+
+.expertise-p {
+    width: 150%;
+}
+
+/* web  */
+.ui-designs {
+    font-size: 13px;
+    padding: 8%;
+    width: 40%;
+    left: 34rem;
+    top: 146rem;
+}
+
+/* ui  */
+.web-designs {
+    font-size: 13px;
+    padding: 8%;
+    width: 40%;
+    left: 21rem;
+    top: 146rem;
+}
+
+/* blog  */
+.packaging-designs {
+    width: 40%;
+    padding: 8%;
+    bottom: -114rem;
+    left: 33.8rem;
+}
+
+/* packaging  */
+.blogs-designs {
+    font-size: 12px;
+    padding: 8%;
+    width: 40%;
+    left: 22rem;
+    bottom: -114.5rem;
+    
+}
+
+.webflow-designs {
+    font-size: 10px;
+    width: 40%;
+    padding: 8.5%;
+    left: 46.5rem;
+    top: 153rem;
+}
+
+
+.logo-designs {
+    font-size: 12px;
+    width: 40%;
+    padding: 8.5%;
+    left: 47.1rem;
+    top: 145.6rem;
+}
+
+
+/*  BEGINS HERE   */
+
+
+.testimonials-h1 {
+    margin-left: 33rem;
+    width: 50%; 
+}
+
+.testimonialsline-img {
+    left: 21.6rem;
+    top: 178rem;
+}
+
+.testimonials-p {
+    margin-left: 25.3rem;
+    width: 100%;
+}
+
+.boxes {
+    margin-left: 42rem;
+
+}
+
+  /* BEGINS HERE  */
+
+  .mon-yea {
+    width: 45%;
+  }
+
+  .plan-img {
+    left: 45rem;
+    top: 242rem;
+  }
+
+  .plan-h1 {
+    margin-left: 19rem;
+    width: 150%;
+  }
+
+  .planline-img {
+    left: 9.6rem;
+    top: 250rem;
+}
+
+  .plancards {
+    margin-left: 9rem;
+    width: 200%;
+  }
+
+  .plan-dot {
+    top: 243rem;
+  }
+
+/* BIGINS HERE  */
+
+
+.footer1 {
+    margin-left: 2rem;
+}
+
+.footer-imgs {
+    margin-right: -38rem;
+}
+
+.footer-dot {
+    top: 296rem;
+}
+
+}
+
+
+/* MEDIA 430PX  */
+@media (max-width: 430px) {
+    
+ 
+.logo-container {
+    margin-left: 40rem;
+}
+
+.design-container {
+    margin-left: 22rem;
+}
+
+
+.flower-img {
+    top: -18rem;
+}
+
+.d-h2 {
+    margin-left: 8rem;
+    width: 600%;
+}
+
+.designline-img {
+    left: 29.7rem;
+    top: 15rem;
+}
+
+.star-img {
+    left: 6.7rem;
+    top: -15.5rem;
+}
+
+
+.dcontainer-p {
+    margin-left: 7rem;
+    width: 600%;
+}
+
+.button-container {
+    width: 238%;
+}
+
+.design-p {
+    width: 200%;
+}
+
+/*  BEGINS HERE   */
+
+
+.img-container img {
+    width: 24.9rem;
+    height: 24.9rem;
+}
+
+.a {
+    left: 72rem;
+    width: 38%;
+}
+
+.box-imgg {
+    left: 70.5rem;
+    top: 58.8rem;
+}
+
+/*  BEGINS HERE   */
+
+.client-container {
+    width: 235%;
+    margin-left: 10.5rem;
+}
+
+.clientline-img {
+    left: 11.5rem;
+    top: 71rem;
+}
+
+.client-dot {
+    top: 65rem;
+}
+
+/*  BEGINS HERE   */
+
+.ui-h1 {
+    margin-left: 28rem;
+    width: 100%;
+}
+
+.uxline-img {
+    left: 20rem;
+    top: 95rem;
+}
+
+.ux-img {
+    width: 62rem;
+    height: 30rem;
+    margin-left: 11.5rem;
+}
+
+.ux-dot {
+    top: 95rem;
+}
+
+/*  BEGINS HERE   */
+
+.expertise-h1 {
+    margin-left: 28rem;
+    width: 100%; 
+}
+
+.expertiseline-img {
+    left: 21rem;
+    top: 137.5rem;
+}
+
+.expertise-p {
+    width: 200%;
+}
+
+/* web  */
+.ui-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 37rem;
+    top: 147rem;
+}
+
+/* ui  */
+.web-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 27rem;
+    top: 147rem;
+}
+
+/* blog  */
+.packaging-designs {
+    width: 40%;
+    padding: 8%;
+    bottom: -99.6rem;
+    left: 37rem;
+}
+
+/* packaging  */
+.blogs-designs {
+    font-size: 9px;
+    padding: 8%;
+    width: 40%;
+    left: 28rem;
+    bottom: -99.6rem;
+    
+}
+
+.webflow-designs {
+    font-size: 8px;
+    width: 40%;
+    padding: 8.5%;
+    left: 47rem;
+    top: 153rem;
+}
+
+
+.logo-designs {
+    font-size: 12px;
+    width: 40%;
+    padding: 8.5%;
+    left: 47.7rem;
+    top: 147rem;
+}
+
+
+/*  BEGINS HERE   */
+
+
+.testimonials-h1 {
+    margin-left: 33rem;
+    width: 50%; 
+}
+
+.testimonialsline-img {
+    left: 22rem;
+    top: 179rem;
+}
+
+.testimonials-p {
+    margin-left: 29rem;
+    width: 100%;
+}
+
+.boxes {
+    margin-left: 43rem;
+
+}
+
+  /* BEGINS HERE  */
+
+  .mon-yea {
+    width: 50%;
+  }
+
+  .plan-img {
+    left: 44rem;
+    top: 243.5rem;
+  }
+
+  .plan-h1 {
+    margin-left: 22rem;
+    width: 150%;
+  }
+
+  .planline-img {
+    left: 7.5rem;
+    top: 251.5rem;
+}
+
+  .plancards {
+    margin-left: 9rem;
+    width: 250%;
+  }
+
+  .plan-dot {
+    top: 244rem;
+  }
+
+/* BIGINS HERE  */
+
+
+.footer1 {
+    margin-left: 2rem;
+}
+
+.footer-imgs {
+    margin-right: -43rem;
+}
+
+.footer-dot {
+    top: 297rem;
+}
+
+}
+
+
+/* MEDIA 414PX  */
+@media (max-width: 414px) {
+    
+
+.d-h2 {
+    width: 800%;
+}
+
+.dcontainer-p {
+    margin-left: 7rem;
+    width: 800%;
+}
+
+.button-container {
+    width: 301%;
+}
+
+.design-p {
+    width: 300%;
+}
+
+/*  BEGINS HERE   */
+
+.a {
+    width: 40%;
+}
+
+/*  BEGINS HERE   */
+
+.client-container {
+    margin-left: 11.5rem;
+}
+
+
+/*  BEGINS HERE   */
+
+/* web  */
+.ui-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 37rem;
+    top: 147rem;
+}
+
+/* ui  */
+.web-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 27.2rem;
+    top: 146.5rem;
+}
+
+/* blog  */
+.packaging-designs {
+    width: 40%;
+    padding: 8%;
+    bottom: -101rem;
+    left: 37rem;
+}
+
+/* packaging  */
+.blogs-designs {
+    font-size: 9px;
+    padding: 8%;
+    width: 40%;
+    left: 28rem;
+    bottom: -101rem;
+    
+}
+
+.webflow-designs {
+    font-size: 7px;
+    width: 40%;
+    padding: 8.5%;
+    left: 47rem;
+    top: 152rem;
+}
+
+
+.logo-designs {
+    font-size: 12px;
+    width: 40%;
+    padding: 8.5%;
+    left: 47rem;
+    top: 146rem;
+}
+
+
+/*  BEGINS HERE   */
+
+.boxes {
+    margin-left: 43rem;
+
+}
+
+  /* BEGINS HERE  */
+
+
+
+  .plan-img {
+    left: 43rem;
+    top: 243rem;
+  }
+
+
+}
+
+/* MEDIA 412PX  */
+@media (max-width: 412px) {
+    
+/*  BEGINS HERE   */
+
+/* web  */
+.ui-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 38rem;
+    top: 147rem;
+}
+
+/* ui  */
+.web-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 28rem;
+    top: 147rem;
+}
+
+/* blog  */
+.packaging-designs {
+    width: 40%;
+    padding: 8%;
+    bottom: -100rem;
+    left: 37rem;
+}
+
+/* packaging  */
+.blogs-designs {
+    font-size: 9px;
+    padding: 8%;
+    width: 40%;
+    left: 28rem;
+    bottom: -100.6rem;
+    
+}
+
+.webflow-designs {
+    font-size: 7px;
+    width: 40%;
+    padding: 8.5%;
+    left: 47rem;
+    top: 152rem;
+}
+
+
+.logo-designs {
+    font-size: 12px;
+    width: 40%;
+    padding: 8.5%;
+    left: 48rem;
+    top: 146rem;
+}
+
+}
+
+/* MEDIA 390PX  */
+@media (max-width: 390px) {
+    
+
+    .d-h2 {
+        width: 1200%;
+    }
+    
+    .dcontainer-p {
+        margin-left: 7rem;
+        width: 1200%;
+    }
+    
+    .button-container {
+        width: 501%;
+    }
+    
+    .design-p {
+        width: 400%;
+    }
+    
+    /*  BEGINS HERE   */
+    
+    .a {
+        width: 50%;
+    }
+    
+    /*  BEGINS HERE   */
+    
+    .client-container {
+        margin-left: 13rem;
+    }
+    
+    
+    /*  BEGINS HERE   */
+    
+    /* web  */
+.ui-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 38rem;
+    top: 147rem;
+}
+
+/* ui  */
+.web-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 28.5rem;
+    top: 147rem;
+}
+
+/* blog  */
+.packaging-designs {
+    width: 40%;
+    padding: 8%;
+    bottom: -105rem;
+    left: 37rem;
+}
+
+/* packaging  */
+.blogs-designs {
+    font-size: 9px;
+    padding: 8%;
+    width: 40%;
+    left: 28.8rem;
+    bottom: -104.5rem;
+    
+}
+
+.webflow-designs {
+    font-size: 7px;
+    width: 40%;
+    padding: 8.5%;
+    left: 46.3rem;
+    top: 153rem;
+}
+
+
+.logo-designs {
+    font-size: 12px;
+    width: 40%;
+    padding: 8.5%;
+    left: 47.5rem;
+    top: 147rem;
+}
+    
+    
+    /*  BEGINS HERE   */
+
+    .testimonials-h1 {
+        margin-left: 30rem;
+      }
+
+      .testimonialsline-img {
+        left: 19rem;
+      }
+    
+    .boxes {
+        margin-left: 43rem;
+    
+    }
+
+        /*  BEGINS HERE   */
+
+        .plan-img {
+            left: 42rem;
+            top: 243rem;
+        }
+
+        .plan-h1 {
+            width: 160%;
+        }
+
+        .planline-img {
+            left: 6.5rem;
+        }
+
+        .plancards {
+            margin-left: 12rem;
+        }
+    
+    
+    }
+
+
+/* MEDIA 375PX  */
+@media (max-width: 375px) {
+    
+
+    .d-h2 {
+        width: 2000%;
+    }
+    
+    .dcontainer-p {
+        margin-left: 7rem;
+        width: 2000%;
+    }
+    
+    .button-container {
+        width: 850%;
+    }
+    
+    .design-p {
+        width: 600%;
+    }
+    
+    /*  BEGINS HERE   */
+    
+    .a {
+        width: 50%;
+    }
+    
+    /*  BEGINS HERE   */
+    
+    .client-container {
+        width: 62rem;
+        margin-left: 12rem;
+    }
+
+    .clientline-img {
+        left: 6.6rem;
+    }
+    
+    
+    /*  BEGINS HERE   */
+    
+      /* web  */
+.ui-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 38rem;
+    top: 147rem;
+}
+
+/* ui  */
+.web-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 29rem;
+    top: 147rem;
+}
+
+/* blog  */
+.packaging-designs {
+    width: 40%;
+    padding: 8%;
+    bottom: -115.5rem;
+    left: 37rem;
+}
+
+/* packaging  */
+.blogs-designs {
+    font-size: 9px;
+    padding: 8%;
+    width: 40%;
+    left: 29rem;
+    bottom: -115.3rem;
+    
+}
+
+.webflow-designs {
+    font-size: 7px;
+    width: 40%;
+    padding: 8.5%;
+    left: 46rem;
+    top: 152.6rem;
+}
+
+
+.logo-designs {
+    font-size: 12px;
+    width: 40%;
+    padding: 8.5%;
+    left: 47rem;
+    top: 147rem;
+}
+    
+    
+    }
+
+
+/* MEDIA 360PX  */
+@media (max-width: 360px) {
+    
+
+    .d-h2 {
+        width: 6000%;
+    }
+    
+    .dcontainer-p {
+        margin-left: 7rem;
+        width: 6000%;
+    }
+    
+    .button-container {
+        width: 2300%;
+    }
+    
+    .design-p {
+        width: 2000%;
+    }
+    
+    /*  BEGINS HERE   */
+    
+    .a {
+        width: 50%;
+    }
+    
+    /*  BEGINS HERE   */
+    
+    .client-container {
+        width: 62rem;
+        margin-left: 12rem;
+    }
+
+    .clientline-img {
+        left: 12rem;
+    }
+
+      /*  BEGINS HERE   */
+      .ui-h1 {
+        width: 200%;
+        margin-left: 19rem;
+      }
+
+    
+    
+    /*  BEGINS HERE   */
+    .expertise-h1 {
+        width: 200%;
+        margin-left: 19rem;  
+    }
+    
+        /* web  */
+.ui-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 38rem;
+    top: 147rem;
+}
+
+/* ui  */
+.web-designs {
+    font-size: 10px;
+    padding: 8%;
+    width: 40%;
+    left: 29.5rem;
+    top: 147rem;
+}
+
+/* blog  */
+.packaging-designs {
+    width: 40%;
+    padding: 8%;
+    bottom: -111rem;
+    left: 37rem;
+}
+
+/* packaging  */
+.blogs-designs {
+    font-size: 9px;
+    padding: 8%;
+    width: 40%;
+    left: 29.5rem;
+    bottom: -110.4rem;
+    
+}
+
+.webflow-designs {
+    font-size: 7px;
+    width: 40%;
+    padding: 8.5%;
+    left: 45.6rem;
+    top: 152.6rem;
+}
+
+
+.logo-designs {
+    font-size: 12px;
+    width: 40%;
+    padding: 8.5%;
+    left: 46.6rem;
+    top: 147rem;
+}
+
+       /*  BEGINS HERE   */
+       .testimonialsline-img {
+        top: 178.6rem;
+       }
+
+          /*  BEGINS HERE   */
+
+          .mon-yea {
+            width: 70%;
+          }
+    
+          .plan-img {
+            left: 45.5rem;
+            top: 243rem;
+        }
+
+        .plan-h1 {
+            width: 180%;
+        }
+
+        .planline-img {
+            left: 7rem;
+            top: 250.8rem;
+        }
+
+        .plancards {
+            margin-left: 13rem;
+        }
+    }
+
+
+
+
